@@ -3,8 +3,9 @@
   "version": "1.0.1",
   "description": "Gulp file with common tasks to get started",
   "scripts": {
+    "gulp": "gulp",
     "start": "gulp",
-    "gulp": "gulp"
+    "watch": "gulp watch"
   },
   "homepage": "https://github.com/spentacular/gulp-starter",
   "author": {
