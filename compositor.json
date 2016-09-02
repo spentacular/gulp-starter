@@ -1,0 +1,95 @@
+{
+  "name": "spentacular/gulp-starter",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.21"
+  },
+  "title": "",
+  "branch": "master",
+  "style": {
+    "name": "Brutalist",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BasicHeader",
+      "article": "article/MarkdownArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace",
+    "heading": {},
+    "typeScale": [
+      48,
+      32,
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "fluid": true
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/spentacular/gulp-starter",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/gulp-starter",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "gulp-starter",
+      "subhead": ":seedling: Gulp file with common tasks to get started",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "gulp-starter: :seedling: Gulp file with common tasks to get started",
+          "url": ""
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "spentacular",
+          "repo": "gulp-starter"
+        }
+      ],
+      "text": "v1.0.1"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n<p>Example usage of gulp to get project rolling.</p>\n<pre>git clone git@github<span class=\"hljs-selector-class\">.com</span>:spentacular/gulp-starter<span class=\"hljs-selector-class\">.git</span> YourProject\ncd YourProject\nrm -rf <span class=\"hljs-selector-class\">.git</span>\nnpm install</pre><p>Default commands are <code>gulp</code> and <code>gulp watch</code>.</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/spentacular/gulp-starter",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/spentacular",
+          "text": "spentacular"
+        }
+      ]
+    }
+  ]
+}
