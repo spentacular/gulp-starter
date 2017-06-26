@@ -1,5 +1,7 @@
 # Gulp Starter
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/spentacular/gulp-starter.svg)](https://greenkeeper.io/)
+
 Example usage of gulp to get project rolling.
 
 ```
